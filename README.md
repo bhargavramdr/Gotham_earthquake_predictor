@@ -46,5 +46,5 @@ So, we are predicting the earthquake with date and time, latitude and longitude 
 ![image](https://user-images.githubusercontent.com/72303641/138644570-f422ebe5-c664-4609-8d5a-95707d33eb6b.png)
 
  
-**Accuracy of 98 percent is not bad at all.**
+**Accuracy of 98 percent is not bad at all!**
 
