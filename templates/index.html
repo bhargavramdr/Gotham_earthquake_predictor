@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../static/Style/style.css">
+  <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='../static/Style/style.css') }}" />
+  <title>Earthquake</title>
+</head>
+
+<body>
+
+  <div style="color:rgb(187, 19, 19)" class="container">
+    <form action="{{ url_for('predict')}}" method="post">
+      <h2>Gotham Earthquake Predictive analysis</h2>
+
+      <h3>Date</h3>
+      <input id="first" name="Date" type="text" placeholder="mm-dd-yyyy">
+
+
+      <h3>Time</h3><input id="second" name="Time" required="required" placeholder="hh.mm.ss">
+
+
+
+      <h3>Latitude</h3><input id="third" name="Latitude" required="required" placeholder="with in 360 degree">
+
+
+
+      <h3>Longitude</h3><input id="third" name="Longitude" required="required" placeholder="with inn 360 degree">
+
+
+
+
+      </select>
+      <br><br><button id="sub" type="submit ">Calculate the Magnitude and Depth</button>
+      <br>
+
+
+
+
+    </form>
+
+
+
+    <br><br>
+    <h3>{{prediction_texts}}<h3>
+        <h3>{{prediction_texts_1}}<h3></h3>
+          <footer>
+            <ul>
+              <li>
+                <a href="https://www.linkedin.com/in/bhargav-ram-d-r">Linkedin</a>
+              </li>
+            </ul>
+            <ul>
+              <li><a href="mailto: bhargavramdr@gmail.com">Gmail</a></li>
+            </ul>
+            <ul>
+              <li><a href="https://github.com/bhargavramdr">Github</a></li>
+            </ul>
+          </footer>
+  </div>
+</body>
+
+</html>
