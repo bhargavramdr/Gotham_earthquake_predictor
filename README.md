@@ -1,6 +1,9 @@
 # Gotham_earthquake_predictor
 **About 98 percent Accurate prediction of the Earthquakes magnitude and depth, in the regions of the city Gotham.
 
+Here's how it looks:
+
+![Screenshot (191)](https://user-images.githubusercontent.com/72303641/139555022-f721d4e5-fef4-4fe4-9cd2-c65415d7f90b.png)
 
 
 
