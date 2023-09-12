@@ -7,7 +7,7 @@ Here's how it looks:
 
 
 
-**Disaster suffered region has high chance of suffering from the disaster again. 
+**Disaster suffered region has high chance of suffering from the disaster again! 
 So, we are predicting the earthquake with date and time, latitude and longitude from previous data.**
 
 ## Importing necessary libraries
